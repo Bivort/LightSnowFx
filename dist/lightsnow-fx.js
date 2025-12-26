@@ -2,7 +2,7 @@
  * LightSnowFX
  * https://github.com/Bivort/LightSnowFX
  * Copyright (c) 2025 Bivort
- * MIT License */
+ * MIT License
  */
 (function (window) {
   'use strict';
