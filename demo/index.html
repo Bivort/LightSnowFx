@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>LightSnowFX demo</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      background: #111;
+    }
+    h1 {
+      position: fixed;
+      top: 20px;
+      left: 20px;
+      color: #fff;
+      font-family: system-ui;
+      z-index: 10000;
+    }
+  </style>
+</head>
+<body>
+
+<h1>LightSnowFX ❄️</h1>
+
+<script src="../dist/lightsnow-fx.js"></script>
+<script>
+  LightSnowFX.init({
+    target: document.body,
+    fixed: true,
+    streams: 40,
+    zIndex: 9999
+  });
+</script>
+
+</body>
+</html>
